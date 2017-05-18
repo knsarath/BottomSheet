@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MySwitch" parent="AppTheme">
+        <!-- active thumb & track color  -->
+        <!-- Active thumb color & Active track color -->
+        <item name="colorControlActivated">#5299D3</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#F1F1F1</item>
+        <!-- Inactive track color -->
+        <item name="android:colorForeground">#585252</item>
+    </style>
+
+
+</resources>
